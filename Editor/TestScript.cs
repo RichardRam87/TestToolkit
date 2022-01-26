@@ -9,4 +9,10 @@ public class TestScript : MonoBehaviour
     {
         Debug.Log("Do Something");
     }
+    
+    [MenuItem("MyMenu/Another Do It")]
+    static void DoSomethingElse()
+        {
+            Debug.Log("Anoter Do Something");
+        }
 }
